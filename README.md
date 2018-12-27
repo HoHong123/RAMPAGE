@@ -56,6 +56,12 @@
       - 각 씬에 필요한 버튼 배치 및 다른 씬과의 연동 <br>
       <img src="Image/Title.PNG" width="50%"><img src="Image/MainMenu.PNG" width="50%"><br>
       </li>
+      <br>
+      <li><b>사이툴을 통한 그래픽 제작</b><br>
+      - 게임 내부에 사용되는 배경을 제외한 모든(타일 포함) 그래픽 자체 제작<br>
+      </li>
     </ol>
   </div>
+  <h2>짧은 게임 GIF</h2>
+  <img src="Image/GamePlay.gif" width="100%"><br>
 </body>
