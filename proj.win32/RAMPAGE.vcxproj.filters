@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{0304f314-d146-4ecf-923d-f7e07bce9e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib">
+      <UniqueIdentifier>{741fbdd6-0b0c-4179-bcb2-278bb8f9c6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character">
+      <UniqueIdentifier>{7db198c0-f90d-43cb-b6f0-9edfd016e0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Object">
+      <UniqueIdentifier>{fdb37360-d96c-4cc7-9e71-9ddb2c404a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Action">
+      <UniqueIdentifier>{01191fbf-a199-4006-af5c-4b2451b42a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Definitions">
+      <UniqueIdentifier>{8ac2dfac-7d9b-4480-a0c7-2641e3b819b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Level">
+      <UniqueIdentifier>{fb7dab99-65ae-4a76-9c2d-abc4b1305cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\HelloWorld">
+      <UniqueIdentifier>{3fb790ed-bf4a-4623-b5b2-1d8aa2ce3913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Scene1">
+      <UniqueIdentifier>{a159d063-86a6-414f-bcb2-72183bd6f52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Stage1">
+      <UniqueIdentifier>{636b9747-ac6b-4e2c-8618-f978e53692d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\GameOver">
+      <UniqueIdentifier>{db01cce5-1495-41ed-9035-bb9c1c464373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Object\Bullet">
+      <UniqueIdentifier>{3b184bdd-ec03-4cda-862a-b5447e9fc0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Player">
+      <UniqueIdentifier>{9a184042-60d2-460f-af58-5c2a63c8ef6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Enemy01">
+      <UniqueIdentifier>{161cdd26-4564-4f88-ae94-ed4eaa53224b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Option">
+      <UniqueIdentifier>{9635e431-4acd-4221-8019-cbc211f09254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Enemy02">
+      <UniqueIdentifier>{0158c05c-c2da-42ac-8d21-937ca7ce4f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Object\EBullet">
+      <UniqueIdentifier>{af07f889-549a-4365-a773-99902f85f205}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\action.cpp">
+      <Filter>src\Lib\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\Scene\HelloWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGround.cpp">
+      <Filter>src\Lib\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>src\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionCheck.cpp">
+      <Filter>src\Lib\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy01.cpp">
+      <Filter>src\Character\Enemy01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>src\Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level1.cpp">
+      <Filter>src\Lib\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player1.cpp">
+      <Filter>src\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene1.cpp">
+      <Filter>src\Scene\Scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\setValues.cpp">
+      <Filter>src\Lib\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage1.cpp">
+      <Filter>src\Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionScene.cpp">
+      <Filter>src\Scene\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy02.cpp">
+      <Filter>src\Character\Enemy02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EBullet.cpp">
+      <Filter>src\Object\EBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\action.h">
+      <Filter>src\Lib\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\Scene\HelloWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGround.h">
+      <Filter>src\Lib\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>src\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionCheck.h">
+      <Filter>src\Lib\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\defines.h">
+      <Filter>src\Lib\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy01.h">
+      <Filter>src\Character\Enemy01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>src\Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level1.h">
+      <Filter>src\Lib\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player1.h">
+      <Filter>src\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene1.h">
+      <Filter>src\Scene\Scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\setValues.h">
+      <Filter>src\Lib\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage1.h">
+      <Filter>src\Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionScene.h">
+      <Filter>src\Scene\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy02.h">
+      <Filter>src\Character\Enemy02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EBullet.h">
+      <Filter>src\Object\EBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
