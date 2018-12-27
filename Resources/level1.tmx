@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="212" height="50" tilewidth="20" tileheight="20" backgroundcolor="#dadada" nextobjectid="106">
+ <tileset firstgid="1" source="tileSet-hd.tsx"/>
+ <group name="Map">
+  <layer name="background3" width="212" height="50">
+   <data encoding="base64" compression="zlib">
+   eJzt07sNwkAQBFCHkFMACZBQB+SUQQHUD0hEiM/pPHsEvCdt5PF6Hcw0AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKcfCgX+jT5CjT5CjT5CjT5CjT5CjT5CjT5CjT5CjT5CjTzmL2ywLslX7e26YI33T6Ptb6FPOqihbtb/nhjnSN42+v4U+5ayLslX7e26Yo+V7LZme7Cj6lLMuylbt77lhjpbvtWR6siMcpto+3ec87G9+b1+Urdr/nNk+5pvti9l9eWfz5r1R8+q+zYdnPU5TfZ8uoVsBgPeuOkFypA==
+  </data>
+  </layer>
+  <layer name="background2" width="212" height="50">
+   <data encoding="base64" compression="zlib">
+   eJzt2MFKw0AQBuAc9e4D7EUv9q5nD9pzH0Noj4I+vSsolkq7SXenWeL3wQ+hs5lMCQthhwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIi2rqwDAADAkr0cpPQ7ZYdnDc4e/g/7CQA4xXchANCLq5zruYc405TZe/+fkfOVetfW+XUz9wAVpsw+Ze36yHWkyPdQ6l1bX6Ln4e+5+LG87t2XLjplWylobUtj92MKnKHUu7a+RJuc+5xtzm44vZ/e9u5LF52yrRS0dg5pxt619V7c5tw1ys9+es/5+L4es59WOU8jZl01WnPO2l6eF+lrvoecx6DekXUA6MknzV8Zng==
+  </data>
+  </layer>
+  <layer name="background" width="212" height="50">
+   <data encoding="base64" compression="zlib">
+   eJzt2bsJwzAQAFBVHiADZI24jUnhJgN4AO+/QtIEgvFH/kvmPRAS0iGduPJCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgPPVM/cBAAAAAABgSBH6+0w59Z7eid93hBxzvqLb2QlsoEn8viPkmPMV3SPjHt9RRsY+/9avzryHduO32umQaHv8u+rZW5vzr2ZjdV56BgAp+wAUaQhM
+  </data>
+  </layer>
+  <layer name="hazards" width="212" height="50">
+   <data encoding="base64" compression="zlib">
+   eJzt0zEKwCAQRUEvZrL3P1UaCwnYiLIiM/Cw/SBbCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcLo3ewBcxD3BOu4J5kSr555gXmQPgItE9gAAALZ6fi8AAAAAAIzUFufwJ5CnSlrWBwl9NfE=
+  </data>
+  </layer>
+  <layer name="walls" width="212" height="50">
+   <data encoding="base64" compression="zlib">
+   eJzt281OGzEQwHFT6LFQbq16azlADvQOPfMAtOc+QCXa0kMlWuiz1yNlxMaxvd6v2LH/P2kUbbIET+JZf7AYAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgF37tI7UY5+rznkSX+dsYAEubVybzRw/ZG0RSjVHPd2Yzb72bc4GFkDr6bgTH7O2CKVxx5QlopZxinpCn8uF31/qqZY+995QT4ijntLJZ3XsRM3rp9D8PmXu36qh9RSb14XOr7measlNDZ3LY5Ovnsauk3xqrqeaclPU0zRj68n3Mz419TlZP7UwPp17nhvynbdM6mk1w/u0UE8trJ+0nn7Y+Nl5jnpKI33kYh1ThMav2uupltwU871ppI/c2/g18X2opzpQT9NIH3my8c+MG6N0XtDCfC+0fnqTs1Ezo56m6Y5PY8apvzYeTRv1FFo/neVs1MwObLxIjMNMbRRzzKmW0B2f9NHns40vnufvbHw37daT3C9Ry/1U4q3ZzjEU73bYLnfPLNZXc5I+EhvPQ31Frw8PNv6Y7TVTN2qup5pqScj9nNeJsWTu7vjTd1yKsfcb6fXBNz7VWk++9VNt99CXwh1/+o5LcTXwfPnbxGodsn/hG5+6YmPcvpHPyq2n31lb9Eyva7o/5B6Xej1XqeNRKJ/S8wtx9y70sYW9Hvn/rlLrSa9ruj/kHpd6PVfavnPneOUch/IpPT8fydXdu9DHFurp1mzXU+pe2JQ9syF7bjlD2v4yErnziH227munkXP3KSSvowmxdM6pe19j48TzPb7awe+dq+2vI5E7j9hn63stdO4+Rd930he7yPk/jG+D+A==
+  </data>
+  </layer>
+ </group>
+ <group name="Spawn">
+  <objectgroup name="Texts">
+   <object id="27" name="Movement" type="text" x="229.5" y="826.833" width="148" height="40">
+    <text fontfamily="Berlin Sans FB Demi" pixelsize="17" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Move Left or Righ
+with Arrow Keys</text>
+   </object>
+   <object id="30" name="Jump" type="text" x="442.5" y="844.666" width="148" height="40">
+    <text fontfamily="Berlin Sans FB Demi" pixelsize="17" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Jump with SpaceBar</text>
+   </object>
+   <object id="31" name="Shoot" type="text" x="756.666" y="802.333" width="148" height="40">
+    <text fontfamily="Berlin Sans FB Demi" pixelsize="17" wrap="1" color="#ffffff" bold="1" halign="center" valign="center">Press &quot;Z&quot; to
+Fire a bullet</text>
+   </object>
+  </objectgroup>
+  <objectgroup name="Start">
+   <object id="90" name="startSpawn1" x="3587.5" y="927.333" width="11.5" height="10.3333"/>
+  </objectgroup>
+  <objectgroup name="Spawn" offsetx="0" offsety="0.5">
+   <object id="8" name="Spawn1" x="830.334" y="891.5" width="21" height="22.5"/>
+   <object id="33" name="Spawn2" x="1473.75" y="929.5" width="19" height="17"/>
+   <object id="78" name="Spawn3" x="2688.5" y="945.833"/>
+   <object id="88" name="Spawn4" x="3434" y="941"/>
+   <object id="105" name="Spawn5" x="3746" y="930.667"/>
+  </objectgroup>
+  <objectgroup name="Fly">
+   <object id="81" name="fly" x="1913.83" y="843.666"/>
+   <object id="84" name="fly1" x="2016.16" y="823.833"/>
+   <object id="85" name="fly2" x="2488.83" y="937.333"/>
+   <object id="87" name="fly3" x="2895" y="682.5"/>
+   <object id="93" name="fly5" x="3423.5" y="908"/>
+   <object id="94" name="fly4" x="2843.5" y="819.5"/>
+   <object id="99" name="fly6" x="3765.5" y="916"/>
+  </objectgroup>
+  <objectgroup name="End" offsetx="0" offsety="-1">
+   <object id="76" name="end" x="4192.67" y="908.333" width="20" height="52.6667"/>
+  </objectgroup>
+ </group>
+</map>
