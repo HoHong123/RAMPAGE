@@ -26,10 +26,12 @@
       <img src="Image/CharacterCollision.png" width="50%"><br>
       *이동 및 점프, 중력, 타일충돌 적용
       </li>
+      <br>
       <li><b>패럴렉스 배경 생성</b><br>
       - 배열과 배경의 크기, 카메라의 위치에 따라 변경되는 패럴렉스 배경 생성<br>
       <img src="Image/Parallax.PNG" width="50%"><img src="Image/BackGround.PNG" width="50%"><br>
       </li>
+      <br>
       <li><b>적 AI 생성</b><br>
       - 플레이어의 위치를 읽고 범위 안이면 추격<br>
       - 플레이어가 범위에 없으면 ‘수색’모드로 돌입<br>
@@ -38,14 +40,17 @@
       - 플레이어가 범위에 있을 때, 전방에 장애물이 존재하면 점프<br>
       <img src="Image/AI.PNG" width="50%"><br>
       </li>
+      <br>
       <li><b>타일맵 생성</b><br>
       - Tiled프록그램을 활용한 타일맵 생성 이후 코코스에 사용<br>
       <img src="Image/Tiled.png" width="50%"><br>
       </li>
+      <br>
       <li><b>옵션을 통한 사운드 컨트롤</b><br>
       - 옵션을 통한 게임 사운드 및 BGM 사운드 조절<br>
       <img src="Image/Option.PNG" width="50%"><br>
       </li>
+      <br>
       <li><b>각종 게임 씬 제작</b><br>
       - 게임 타이틀/메인메뉴/옵션/게임 오버 화면 등을 제작 및 배치<br>
       - 각 씬에 필요한 버튼 배치 및 다른 씬과의 연동 <br>
