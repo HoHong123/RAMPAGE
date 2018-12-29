@@ -54,13 +54,13 @@
       <img src="Image/Option.PNG" width="50%"><br>
       </li>
       <br>
-      <li><b>각종 게임 씬 제작</b><br>
+      <li><b>각종 씬 제작 및 UI배치</b><br>
       - 게임 타이틀/메인메뉴/옵션/게임 오버 화면 등을 제작 및 배치<br>
       - 각 씬에 필요한 버튼 배치 및 다른 씬과의 연동 <br>
       <img src="Image/Title.PNG" width="50%"><img src="Image/MainMenu.PNG" width="50%"><br>
       </li>
       <br>
-      <li><b>사이툴을 통한 그래픽 제작</b><br>
+      <li><b>사이툴을 통한 그래픽 제작 및 외부 폰트 적용</b><br>
       - 게임 내부에 사용되는 배경을 제외한 모든(타일 포함) 그래픽 자체 제작<br>
       </li>
     </ol>
