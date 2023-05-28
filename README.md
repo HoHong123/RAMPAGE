@@ -32,6 +32,7 @@
       <br>
       <li><b>패럴렉스 배경 생성</b><br>
       - 배열과 배경의 크기, 카메라의 위치에 따라 변경되는 패럴렉스 배경 생성<br>
+      https://github.com/HoHong123/RAMPAGE/blob/master/Classes/BackGround.cpp  
       <img src="Image/Parallax.PNG" width="50%"><img src="Image/BackGround.PNG" width="50%"><br>
       </li>
       <br>
@@ -41,6 +42,7 @@
       - ‘수색’모드 중 낭떠러지에 떨어지지 않음 <br>
       - 단, 플레이어가 있으면 낭떠러지도 추격<br>
       - 플레이어가 범위에 있을 때, 전방에 장애물이 존재하면 점프<br>
+        https://github.com/HoHong123/RAMPAGE/blob/master/Classes/Enemy01.cpp  
       <img src="Image/AI.PNG" width="50%"><br>
       </li>
       <br>
